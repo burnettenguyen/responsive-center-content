@@ -171,6 +171,10 @@ footer span {
 			border-top: 1px solid #eee;
 		}
 
+		.main-title h3 {
+			margin: 18px 10px;
+		}
+
 		.section-one,
 		.section-two,
 		.section-three {
@@ -213,4 +217,20 @@ footer span {
 		}
 
 
+}
+
+@media all and (min-width: 1200px) {
+	/* Desktop styles here */
+	header {
+		height: auto;
+	}
+
+	header nav ul {
+	    display: flex;
+	    justify-content: space-between;
+	  }
+
+	.main-title h3 {
+			margin: 18px 10px;
+		}
 }
